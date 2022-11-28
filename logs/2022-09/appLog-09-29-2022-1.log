@@ -1,0 +1,36 @@
+2022-09-29 21:10:30,552 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.4.Final
+2022-09-29 21:10:30,600 INFO o.s.b.StartupInfoLogger [main] Starting BankManagementSystem using Java 11.0.15 on DESKTOP-LA21FV0 with PID 11460 (C:\Users\Veni\Desktop\Final Project\lucky-six\BankManagementSystem\target\classes started by Veni in C:\Users\Veni\Desktop\Final Project\lucky-six\BankManagementSystem)
+2022-09-29 21:10:30,604 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-29 21:10:30,605 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-29 21:10:31,331 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-29 21:10:31,421 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 8 JPA repository interfaces.
+2022-09-29 21:10:32,157 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-09-29 21:10:32,177 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-29 21:10:32,177 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-29 21:10:32,177 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-29 21:10:32,294 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-29 21:10:32,294 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1643 ms
+2022-09-29 21:10:32,459 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-29 21:10:32,524 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-29 21:10:32,690 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-29 21:10:32,796 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-09-29 21:10:32,977 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-09-29 21:10:32,996 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-29 21:10:33,802 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-29 21:10:33,809 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-29 21:10:34,603 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@260ccf0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2566247d, org.springframework.security.web.context.SecurityContextPersistenceFilter@38318d67, org.springframework.security.web.header.HeaderWriterFilter@309d54ac, org.springframework.security.web.authentication.logout.LogoutFilter@684bfba9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12948e7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@497c1d78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@363a09a2, org.springframework.security.web.session.SessionManagementFilter@4c89c98a, org.springframework.security.web.access.ExceptionTranslationFilter@7f7f544a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d3bde85]
+2022-09-29 21:10:34,979 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-29 21:10:35,000 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-29 21:10:35,011 INFO o.s.b.StartupInfoLogger [main] Started BankManagementSystem in 4.735 seconds (JVM running for 5.616)
+2022-09-29 21:12:50,902 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 21:12:50,902 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-29 21:12:50,904 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-29 21:12:51,105 INFO c.e.b.c.LoanTypeController [http-nio-8080-exec-1] Returns a list with all loan types
+2022-09-29 21:13:10,807 INFO c.e.b.c.LoanTypeController [http-nio-8080-exec-3] Returns the loan type with id 2
+2022-09-29 21:13:17,304 INFO c.e.b.c.LoanTypeController [http-nio-8080-exec-4] Returns the loan type with id 1
+2022-09-29 21:13:22,503 INFO c.e.b.c.LoanTypeController [http-nio-8080-exec-5] Returns a list with all loan types
+2022-09-29 21:13:26,356 INFO c.e.b.c.LoanTypeController [http-nio-8080-exec-6] Returns the loan type with id 1
+2022-09-29 21:13:28,316 INFO c.e.b.c.LoanTypeController [http-nio-8080-exec-7] Returns the loan type with id 2
+2022-09-29 21:13:31,228 INFO c.e.b.c.LoanTypeController [http-nio-8080-exec-8] Returns the loan type with id 1
+2022-09-29 21:15:12,436 ERROR c.e.b.c.SecurityLogger [http-nio-8080-exec-2] Unauthorized access - [username: "{ }", message: "{ }"]
+2022-09-29 21:15:12,567 WARN o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [126] milliseconds.
